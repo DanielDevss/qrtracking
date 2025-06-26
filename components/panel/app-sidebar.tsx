@@ -2,11 +2,16 @@ import { paths } from "@/routes/path";
 import { Sidebar, SidebarContent, SidebarFooter, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarHeader, SidebarMenu, SidebarMenuAction, SidebarMenuButton, SidebarMenuItem } from "../ui/sidebar";
 import Link from "next/link";
 import { Button } from "../ui/button";
+import AppSidebarProjects from "./app-sidebar-projects";
 
 export default function AppSidebar () {
     return (
-        <Sidebar>
-            <SidebarHeader></SidebarHeader>
+        <Sidebar variant="floating">
+
+            <SidebarHeader>
+                <AppSidebarProjects />
+            </SidebarHeader>
+
             <SidebarContent>
                 {paths.map((group, key) => (
                     <SidebarGroup key={key}>
