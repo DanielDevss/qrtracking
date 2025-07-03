@@ -35,19 +35,9 @@ export const paths: Path[] = [
                 to: '/mi-cuenta'
             },
             {
-                label: 'Notificaciones', // Envio de notificaciones
-                icon: BellRing,
-                to: '/ajustes/notificaciones'
-            },
-            {
                 label: 'Suscripcion', // Administrar suscripción
                 icon: Star,
                 to: '/ajustes/suscripcion'
-            },
-            {
-                label: 'Conectar', // Claves API
-                icon: Plug,
-                to: '/ajustes/conectar'
             },
         ]
     },

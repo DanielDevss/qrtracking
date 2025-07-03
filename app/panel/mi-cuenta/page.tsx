@@ -1,9 +1,9 @@
 import AppHeader from "@/components/panel/app-header";
 
-export default function Home() {
+export default function MyAccount () {
     return (
         <>
-            <AppHeader title="Escritorio" />
+            <AppHeader title="Mi cuenta" />
         </>
-    );
+    )
 }

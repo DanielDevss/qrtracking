@@ -39,10 +39,10 @@ export default function AppSidebarProjects () {
                     <DropdownMenuSeparator />
                     <DropdownMenuLabel><Settings2 className="inline" size={16} /> Opciones</DropdownMenuLabel>
                     <DropdownMenuItem asChild>
-                        <Link className="w-full justify-between" href={'/nuevo-proyecto'}>Nuevo proyecto <Plus /></Link>
+                        <Link className="w-full justify-between" href={'/panel/nuevo-proyecto'}>Nuevo proyecto <Plus /></Link>
                     </DropdownMenuItem>
                     <DropdownMenuItem asChild>
-                        <Link className="w-full justify-between" href={'/editar-proyecto'}>Editar proyecto actual <SquarePen /></Link>
+                        <Link className="w-full justify-between" href={'/panel/editar-proyecto'}>Editar proyecto actual <SquarePen /></Link>
                     </DropdownMenuItem>
                     <DropdownMenuItem className="w-full justify-between">
                         Eliminar proyecto actual <Shredder />
