@@ -17,7 +17,9 @@ import AppSidebarProjects from "./app-sidebar-projects";
 
 export default function AppSidebar() {
   return (
+    
     <Sidebar variant="floating">
+
       <SidebarHeader>
         <AppSidebarProjects />
       </SidebarHeader>
